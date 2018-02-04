@@ -1,7 +1,7 @@
 package ru.maximov.kotlininaction.ch04
 
 fun main(args: Array<String>) {
-    Button().apply {
+    with(Button()) {
         showOff()
         setFocus(true)
         click()
