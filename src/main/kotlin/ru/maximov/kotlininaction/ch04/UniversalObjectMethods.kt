@@ -12,4 +12,6 @@ package ru.maximov.kotlininaction.ch04.universalobjectmethods
 //
 //}
 
-data class Client(val name: String, val postalCode: Int)
+data class Client(val name: String, val postalCode: Int, val order: Order)
+
+data class Order(val code: Int)
