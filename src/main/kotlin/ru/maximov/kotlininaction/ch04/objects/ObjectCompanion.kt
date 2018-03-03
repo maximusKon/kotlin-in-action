@@ -13,6 +13,12 @@ fun main(args: Array<String>) {
 
     loadFromJSON(Person)
 
+    loadFromJSON(object : JSONFactory<Person> {
+        override fun fromJSON(jsonText: String): Person {
+            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        }
+    })
+
     val c = Client.fromJSON("JSON_TEXT_STUB")
 }
 
