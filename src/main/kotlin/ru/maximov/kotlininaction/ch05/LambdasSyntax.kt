@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
     println(people.maxBy { p: Person -> p.age })
     println(people.maxBy { p -> p.age })
     println(people.maxBy { it.age })
+    println(people.maxBy(Person::age))
     val getAge = { p: Person -> p.age }
     println(people.maxBy(getAge))
 
