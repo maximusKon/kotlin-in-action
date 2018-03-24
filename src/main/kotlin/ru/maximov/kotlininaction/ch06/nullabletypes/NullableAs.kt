@@ -1,4 +1,4 @@
-package ru.maximov.kotlininaction.ch06.nullableas
+package ru.maximov.kotlininaction.ch06.nullabletypes.nullableas
 
 fun main(args: Array<String>) {
     val p1 = Person("Dmitry", "Jemerov")

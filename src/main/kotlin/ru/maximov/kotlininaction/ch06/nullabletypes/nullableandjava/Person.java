@@ -1,4 +1,4 @@
-package ru.maximov.kotlininaction.ch06.nullableandjava;
+package ru.maximov.kotlininaction.ch06.nullabletypes.nullableandjava;
 
 public class Person {
     private final String name;

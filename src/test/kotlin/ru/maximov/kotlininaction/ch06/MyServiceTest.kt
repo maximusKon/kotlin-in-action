@@ -3,7 +3,7 @@ package ru.maximov.kotlininaction.ch06
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import ru.maximov.kotlininaction.ch06.lateinitialization.MyService
+import ru.maximov.kotlininaction.ch06.nullabletypes.MyService
 
 internal class MyServiceTest {
 

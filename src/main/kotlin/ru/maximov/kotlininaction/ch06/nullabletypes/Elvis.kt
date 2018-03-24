@@ -1,4 +1,4 @@
-package ru.maximov.kotlininaction.ch06.elvis
+package ru.maximov.kotlininaction.ch06.nullabletypes.elvis
 
 fun main(args: Array<String>) {
     val person = Person("Dmitry", null)

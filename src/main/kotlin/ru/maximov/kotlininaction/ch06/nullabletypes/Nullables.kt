@@ -1,4 +1,4 @@
-package ru.maximov.kotlininaction.ch06.nullables
+package ru.maximov.kotlininaction.ch06.nullabletypes.nullables
 
 fun main(args: Array<String>) {
     printAllCaps("abc")

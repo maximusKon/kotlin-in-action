@@ -1,4 +1,4 @@
-package ru.maximov.kotlininaction.ch06
+package ru.maximov.kotlininaction.ch06.nullabletypes
 
 fun main(args: Array<String>) {
     verifyUserInput(" ")
