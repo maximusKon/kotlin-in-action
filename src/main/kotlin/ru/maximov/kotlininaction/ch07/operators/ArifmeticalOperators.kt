@@ -23,6 +23,8 @@ fun main(args: Array<String>) {
     println(list)
     println(newList)
 
+    println(-p1)
+
 }
 
 data class Point(val x: Int, val y: Int) {
@@ -32,5 +34,6 @@ data class Point(val x: Int, val y: Int) {
 operator fun Point.minus(other: Point) = Point(x - other.x, y - other.y)
 operator fun Point.times(scale: Double) = Point((x * scale).toInt(), (y * scale).toInt())
 operator fun Double.times(p: Point) = p * this
+operator fun Point.unaryMinus() = Point(-x, -y)
 
 operator fun Char.times(count: Int) = this.toString().repeat(count)
